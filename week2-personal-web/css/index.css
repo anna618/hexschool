@@ -1,0 +1,185 @@
+/* 免除盒模型計算 */
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+img {
+  vertical-align: middle;
+}
+h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 900;
+  font-style: Italic;
+}
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 500;
+  font-style: Italic;
+}
+h6 {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 700;
+  font-style: Italic;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: Italic;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.mr-2 {
+  margin-right: 16px;
+}
+.mr-3 {
+  margin-right: 24px;
+}
+.mb-1 {
+  margin-bottom: 8px;
+}
+.mb-3 {
+  margin-bottom: 24px;
+}
+.mb-4 {
+  margin-bottom: 32px;
+}
+.mb-5 {
+  margin-bottom: 40px;
+}
+.mb-6 {
+  margin-bottom: 48px;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.line-h-36 {
+  line-height: 36px;
+}
+.banner {
+  height: 958px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.subtitle {
+  width: 283px;
+}
+.text-left {
+  order: 0;
+  align-self: flex-start;
+  line-height: 42px;
+}
+
+/* About */
+.about {
+  padding: 56px 0px;
+}
+.about-list {
+  width: 384px;
+  border-top: 1px solid #000;
+  padding-top: 28px;
+  align-items: center;
+}
+.dot {
+  display: flex;
+  align-items: center;
+}
+.dot::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 100px;
+  margin-right: 16px;
+}
+.about img {
+  margin-bottom: 20px;
+}
+.name-mb {
+  margin-bottom: 4px;
+}
+
+/* Brand */
+.brand {
+  background-color: #000;
+  padding-top: 56px;
+  align-items: center;
+}
+.brand h2 {
+  margin-bottom: 12px;
+}
+.brand p {
+  width: 320px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.myBrand-list {
+  flex-wrap: wrap;
+  margin-bottom: 160px;
+}
+.brand_img1 {
+  margin: 0 auto 40px auto;
+}
+.brand_img2 {
+  margin: 0 auto 40px auto;
+}
+
+/* Works */
+.works {
+  padding-top: 56px;
+  padding-bottom: 144px;
+  margin-right: 24px;
+}
+.works-intro {
+  margin-bottom: 56px;
+}
+.works .works-list .work p {
+  line-height: 42px;
+}
+.works-list {
+  flex-wrap: wrap;
+}
+
+/* footer */
+footer {
+  background-color: #000;
+  padding: 64px 0px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: skyblue;
+  text-decoration: underline;
+}
